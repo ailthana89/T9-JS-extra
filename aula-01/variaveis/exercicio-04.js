@@ -7,3 +7,8 @@ Armazene o nome chamado Letícia em uma variável e use a notação de colchete
 
  Por exemplo, o caractere no índice 0 na palavra "Charles" é "C".
  */
+
+ let firstName = "Letícia";
+
+ console.log(firstName[0])
+
