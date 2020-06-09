@@ -3,6 +3,7 @@
     especie = cachorro
     raca = golden
 */
+<<<<<<< HEAD
 
 const animal = {
     porte: 'grande',
@@ -10,4 +11,14 @@ const animal = {
     raca: 'golden'
 }
 
+=======
+let animal = {
+    porte: "Grande",
+    especie: "Cachorro",
+    raca: "Golden"
+}
+
+//verificar objeto
+
+>>>>>>> e39ff83db64ec55467160ce2829450406d9b085e
 console.log(animal)
