@@ -87,6 +87,9 @@ for (propriedade in livros) {
         tituloLivro.classList.remove("livro__titulo--lido");
     });
 }
+<<<<<<< HEAD
 
 }
 
+=======
+>>>>>>> 8b37ec65e4e28d4f2805391ef53757df127a67da
