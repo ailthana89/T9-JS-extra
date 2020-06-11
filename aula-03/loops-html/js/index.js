@@ -9,6 +9,7 @@ const alunas = ["Od", "Nayla", "Sindi",
   "Carol", "Ariane", "Millena", "Adela",
   "Gabi Fernandes"];
 
+<<<<<<< HEAD
   const lista = document.getElementById("lista-alunas")
 
   alunas.forEach((aluna) => {
@@ -17,3 +18,14 @@ const alunas = ["Od", "Nayla", "Sindi",
 
       lista.appendChild(item)
   })
+=======
+const lista = document.getElementById("lista-alunas");
+
+alunas.forEach((aluna) => {
+  let item = document.createElement("li");
+  item.textContent = aluna;
+
+  lista.appendChild(item)
+})
+
+>>>>>>> 3e2bc54b6872d7fdafbdb94c7179764dd8d2f8fc
